@@ -6,22 +6,6 @@ body {
     background-color: #ffffff;
 }
 
-body.Početna {
-    background-image: url('inter3.png'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-color: none;
-}
-
-body.Početna header{
-    background-color: transparent;
-}
-
-body.Početna{
-    color:#000000;
-}
 header {
     background-color: #7ab8f7;
     padding: 20px;
