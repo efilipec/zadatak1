@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt stranica s mapom i kontaktnim informacijama.">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <header>
+        <h1>Kontaktirajte nas.</h1>
+        <div class="navbar">
+        <nav>
+            <ul>
+                <ul class="navigation">
+                <li><a href="Početna.html">Početna</a></li>
+                <li><a href="O nama.html">O nama</a></li>
+                <li><a href="Usluge.html">Usluge</a></li>
+                <li><a href="Kontakt.html"class="active"></a></li>
+                <li><a href="Galerija.html">Galerija</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+   
+
+    <main>
+        <section class="contact-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d432.2871348708174!2d16.109075313265027!3d45.691789962123295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667d85ba406399%3A0xc026fc3b95985298!2sINTERMOBIL%20d.o.o.%20%E2%80%A2%20(SPONE%20%26%20KARDAN)%20%E2%80%A2%20Proizvodnja%20auto%20dijelova%20%E2%80%A2!5e1!3m2!1shr!2shr!4v1737109324044!5m2!1shr!2shr" width="800" height="510" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+                    <section class="contact">
+                        <div class="contact_wrapper">
+                            <form id="contactForm">
+                                <div class="form_group">
+                                    <div class="form">
+                                        <input type="text" name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form">
+                                        <input type="text" name="surname" placeholder="Your Surname" required>
+                                    </div>
+                                    <div class="form">
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                    </div>
+                                    <div class="form">
+                                        <textarea name="message" placeholder="Your message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </form>
+                            
+                            <div class="contact-info">
+                                <h7>Contact Information</h7>
+                                <p1><strong>Telefon:</strong> <a href="tel:+38516230137">+385 1 6230 137</a></p1>
+                                <p1><strong>Email:</strong> <a href="mailto:info@intermobil.hr">info@intermobil.hr</a></p1>
+                                <p1><strong>Adresa:</strong> <a href="https://www.google.com/maps/place/Velikogorička+ulica+37,+Staro+Čiče,+10410+Velika+Gorica" target="_blank">Velikogorička ulica 37, Staro Čiče, 10410 Velika Gorica</a></p1>
+                            </div>
+                        </div>
+                    </section>
+
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Sva prava pridržana.</p>
+    </footer>
+
+    <script>
+        // Automatsko postavljanje tekuće godine u footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
